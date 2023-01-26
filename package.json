@@ -1,0 +1,22 @@
+{
+  "name": "my-git-journal",
+  "description": "Journaling on GitHub with Honkit",
+  "version": "belch",
+  "maintainers": [
+    {
+      "name": "Why do you care?"
+    }
+  ],
+  "dependencies": {
+    "gitbook-plugin-ga": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whyjournalwhengit/whyjournalwhengit.github.io"
+  },
+  "scripts": {
+    "build": "honkit build",
+    "serve": "honkit serve"
+  },
+  "homepage": "https://whyjournalwhengit.github.io/"
+}
